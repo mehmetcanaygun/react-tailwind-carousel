@@ -1,5 +1,11 @@
+import Carousel from './components/Carousel'
+
 const App = () => {
-  return <div className="App">Hellooo</div>
+  return (
+    <div className="h-scren">
+      <Carousel />
+    </div>
+  )
 }
 
 export default App
